@@ -313,12 +313,12 @@ contract Nodes is Initializable,OwnableUpgradeable {
         _initialEnergy = initialEnergy;
     }
 
-    function flipNodeSaleActive() public onlyOwner {
-        _isNodeSaleActive = !_isNodeSaleActive;
+    function setIsNodeSaleActive(bool isNodeSaleActive) public onlyOwner {
+        _isNodeSaleActive = isNodeSaleActive;
     }
 
-    function flipShareOutBonus() public onlyOwner {
-        _isShareOutBonus = !_isShareOutBonus;
+    function setIsShareOutBonus(bool isShareOutBonus) public onlyOwner {
+        _isShareOutBonus = isShareOutBonus;
     }
 
     function setPigStarAddress(address pigStarAddress) public onlyOwner {
