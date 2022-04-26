@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
-import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
+import "../contracts-upgradeable/utils/StringsUpgradeable.sol";
+import "../contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol";
+import "../contracts-upgradeable/proxy/utils/Initializable.sol";
+import "../contracts-upgradeable/access/OwnableUpgradeable.sol";
 
 library SafeMath {
     /**
